@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <style>
-        h1{
-            color:rgb(44, 134, 194);
-            font-size: 80px;
-        }
-    </style>
-
     <head>
         <meta charset="UTF-8">
         <META name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,26 +8,55 @@
         <link rel="stylesheet" href="css/estilospropios.css">  
     </head>
 
+     <title>Snoopy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilospropios.css">
+</head>
+
+<body>
+
+        <header>
+
+            <div id="fondoCabeza">
+
+                <center>
+                <div id="cajaLogo">
+                    <img src="imagenes/snoopy.png" id="logo">
+                </div>
+
+                <div id="textoLogo" class="fontdiner-swanky-regular" >
+                    The Peanuts Gang
+                </div>
+                </center>
+            </div>
+
+        </header>
 
 <hr>
 
-    <h1><center>Peanuts Gang</center></h1>
+<nav id="menuPpal">
+    <a href="#">Inicio</a>
+    <a href="#">Galeria</a>
+    <a href="#">Episodios</a>
+</nav>
 
 <hr>
+    <center>
     <body>
-    <img src="Taller/Imagenes/Peanuts-Gang.webp" width="450" height="300">
+    <img src="Taller/Imagenes/Peanuts-Gang.webp" class="fotografias" >
     <p>Imagen tomada de <a href="https://bonkers.uk.com/blogs/news/get-to-know-snoopy-the-peanuts-gang?srsltid=AfmBOoq4j5ObWRSuY2XKYO782Hn0wAwOJAnYPPqs0ECzZ2zwVo7ELBNW" target="_blank" >Snoopy y Sus Amigos</a></p> 
     </body>
+    </center>
 <hr>
 
     <p> Peanuts Gang es una tira cómica creada por Charles M. Swulz en los años 50's, la cual cuenta las aventuras de un grupo de amigos, su perro Snoopy y Woodstock, el pajarito amarillo.<br> 
-        A pesar del paso de los años, la tira comica sigue vigente y su personaje mas memorable: Snoopy, esta presente en el corazón de grandes y pequeños. <br>
+        A pesar del paso de los años, la tira comica sigue vigente y su personaje mas memorable: Snoopy, está presente en el corazón de grandes y pequeños. <br>
        <br> 
-       A continuacion te nombramos los mas reconocidos: <p>
+       A continuacion te nombramos los personajes mas reconocidos: <p>
 
-    <h2 class="especial" > Peanuts Gang </h2>
-
-    <ul> 
+   <ul> 
         <li> Snoopy </li>
         <li> Charlie Brown </li>
         <li> Woodstock </li>
@@ -44,7 +66,7 @@
         <li> Marcie </li>
     </ul>
 
-    <h2 class="especial" > Alter Egos de Snoopy</h2>
+    <h2 class="especial"> Alter Egos de Snoopy  </h2>
 
     <p> Pero sin duda Snoopy es el que se lleva todas las miradas, por eso acá te contamos sus 3 alter ego mas recordados.</p> 
         <ol> 
@@ -55,20 +77,37 @@
     
 <hr>
 
+<section>
+    <center>
+    
+    <h1 style="color: rgb(47, 154, 255); font-weight: 100;">Mas datos Interesantes</h1>
+    <p style="margin: 0;">Su casa es más grande por dentro</p>
+    <p style="margin: 0;">Existe el “Silver Snoopy Award”. Otorgado por la NASA</p>
+    <p style="margin: 0;">Snoopy tiene 7 hermanos</p>
+    </center>
+
+
+<h3> Snoopy's Intro </h3>
+
+</section>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T2P7EyX3DHI?si=-Pv_9DFLH8nv5Lfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>Video tomado de <a href="https://youtu.be/T2P7EyX3DHI" target="_blank" > Snoopy Intro</a></p>
 
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, aut numquam autem cum assumenda ipsa dolore explicabo omnis deleniti repellendus sequi perspiciatis maxime consequuntur provident qui facere corporis voluptates odit.
-</p>
+   <ul> 
+        <li> The Charlie Brown and Snoopy Show (1983–1985): 18 episodios </li>
+        <li> Peanuts (2014): 104 episodios cortos </li>
+        <li> Snoopy in Space (Apple TV+): 2 temporadas (24 episodios en total) </li>
+        <li> The Snoopy Show (2021– ): 3 temporadas (alrededor de 36 episodios) </li>
+    </ul>
 
-<h3>Peanuts Gang Song</h3>
+<h3>Peanuts Gang Song </h3>
 
 <audio src="Taller/Audio/Peanuts Gang _  Christmas Song Linus & Lucy.mp3" controls></audio>
 
     
     <center>
-    <table border="1" width="500px">
+    <table border="1 id="tabla1">
         <caption>Snoopy Best Episodes</caption>
         <thead>
         <tr>
@@ -100,6 +139,53 @@
     </tbody>
     </table>
     </center>
+
+    <body>
+        
+    <form action="" method="">
+
+<br>
+<label>Nombre:</label>
+<input type="text" name="nombre1" id="nombre1">
+
+
+<br>
+<label for="Mail">Mail: </label>
+<input type="email">
+
+
+
+<label for=""> Eres?: </label>
+<br>
+Niña
+<input type="radio" name="Genero" id="Masculino">
+Niño
+<input type="radio" name="Genero" id="Femenino">
+
+
+<br>
+<br>
+<label>Qué le dirías a Snoopy si lo conocieras?</label>
+<br>
+<textarea name="Servicio" id="Texto Servicio" rows="5" cols="32"></textarea>
+
+<br>
+<br>
+<label for="">Pais</label>
+<select>
+    <option value="0">--SELECCIONES--</option>
+    <option value="1">Colombia</option>
+    <option value="2">Peru</option>
+    <option value="3">Costa Rica</option>
+</select>
+
+<br>
+<input type="submit" value="Guardar Datos">
+
+
+</form>
+</body>
+
 
 
 </html>
